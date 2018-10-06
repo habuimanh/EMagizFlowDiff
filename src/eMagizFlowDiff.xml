@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="com.mendix.widget.custom.eMagizFlow.eMagizFlowDiff" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+<name>EMagizFlowDiff</name>
+<description>The description of this widget.</description>
+<icon></icon> 
+<properties>
+    <property key="version" type="entity" allowNonPersistableEntities="true">
+        <caption>Entity</caption>
+        <category>Version</category>
+        <description>The flow of the widget.</description>
+    </property>
+    <property key="version1" type="attribute" entityProperty="version">
+        <caption>Version 1</caption>
+        <category>Version</category>
+        <description>The version of the widget.</description>
+        <attributeTypes>
+				<attributeType name="String"/>
+		</attributeTypes>
+    </property>
+   <property key="version2" type="attribute" entityProperty="version">
+        <caption>Version 2</caption>
+        <category>Version</category>
+        <description>The version of the widget.</description>
+         <attributeTypes>
+				<attributeType name="String"/>
+		</attributeTypes>
+    </property>
+    <!-- <property key="colorEdited" type="string" required="false">
+        <caption>Edit</caption>
+        <category>Configuration</category>
+        <description>The color of components which edited.</description>
+    </property>
+    <property key="colorDeleted" type="string" required="false">
+        <caption>Delete</caption>
+        <category>Configuration</category>
+        <description>The color of components which deleted.</description>
+    </property>
+    <property key="colorAdded" type="string" required="false">
+        <caption>New</caption>
+        <category>Configuration</category>
+        <description>The color of components which added.</description>
+    </property> -->
+    <property key="convertName" type="object" isList="true" required="false">
+        <caption>Technical-Displayed Pairs</caption>
+        <category>Techical Name to Displayed Name</category>
+        <description>Technical-Displayed Pairs</description>
+        <properties>
+            <property key="technicalName" type="string" required="true" >
+                <caption>Technical Name</caption>
+                <category>Pair</category>
+                <description>Technical Name</description>
+            </property>
+            <property key="displayedName" type="string" required="true">
+                <caption>Displayed Name</caption>
+                <category>Pair</category>
+                <description>Displayed Name</description>
+            </property>
+        </properties>
+    </property> 
+    </properties>
+</widget>

@@ -1,0 +1,108 @@
+.ReactModalPortal .modal {
+    display: block;
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid #ccc;
+    background: white;
+  }
+  
+  .ReactModalPortal .mask {
+    position: fixed;
+    height: 100%;
+    background: rgba(55, 55, 55, 0.6);
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+  }
+  
+  .ReactModalPortal .resizer {
+    position:absolute;
+    right:0;
+    bottom:0;
+    cursor:se-resize;
+    margin:5px;
+    border-bottom: solid 2px #333;
+    border-right: solid 2px #333;
+  }
+  
+  .ReactModalPortal .drag-area{
+    background: rgba(22, 22, 333, 0.2);
+    height: 70px;
+    position:absolute;
+    right:0;
+    top:0;
+    cursor:move;
+  }
+.ReactModalPortal .modal-overlay {
+    background: transparent;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity .15s linear;
+}
+.ReactModalPortal .modal-content {
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid #DDD;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.ReactModalPortal .modal-header {
+    position: relative;
+    border-radius: 0;
+    padding: 15px 20px;
+    background-color: #DDD;
+}
+
+.ReactModalPortal .modal-body {
+    padding: 20px;
+    position: relative;
+    overflow: scroll; 
+    overflow-x: hidden;
+}
+
+.ReactModalPortal .modal-title {
+    line-height: 1.42857143;
+}
+
+.ReactModalPortal .modal-header h4 {
+    font-weight: bold;
+    color: #555;
+    font-size: 16px;
+    margin: 0;
+}
+
+.ReactModalPortal .modal-header .close {
+    color: #555;
+    text-shadow: none;
+    cursor: pointer;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+.ReactModalPortal .modal-header .close:hover {
+    color: black;
+    opacity: .5;
+}
+
+.ReactModalPortal .modal-footer {
+    padding: 0px;
+    padding-left: 20px;
+    margin-top: 5px;
+    border-style: none;
+    text-align: left;
+}

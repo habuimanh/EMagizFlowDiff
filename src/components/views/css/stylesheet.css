@@ -1,0 +1,101 @@
+#eMagizFlowDiff .result-wrapper {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    font-size: 11px;
+    color:rgb(119, 68, 0);
+    white-space: nowrap;
+    /*inline text*/
+    margin-top: -2px; 
+}
+#eMagizFlowDiff .content-wrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#eMagizFlowDiff .item-wrapper{
+    display: table;
+    margin: auto;
+    table-layout: fixed;
+    padding: 0px 5px 0px 5px;
+}
+#eMagizFlowDiff .text-wrapper{
+    display: table-cell;
+    vertical-align: middle;
+}
+#eMagizFlowDiff .Resizer.horizontal.disabled{
+    height: 0px; 
+    margin: 0px 0; 
+    border-top: 0px; 
+    border-bottom: 0px; 
+}
+#eMagizFlowDiff .SplitPane  horizontal {
+    height: 97%;
+    min-height: 97%;
+}
+#eMagizFlowDiff .text-wrapper label {
+    font-size:11px;
+    word-break: break-all;
+    word-break: break-word;
+    white-space: pre-wrap;
+    margin-right: 4px;
+    margin-top: 2px;
+    margin-left: 5px;
+    line-height: 12px;
+    color: #8f8f8f;
+}
+#eMagizFlowDiff .version-title{
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+    background-color: #efefef;
+    display: inline-block;
+    padding: 5px 5px 5px 10px;
+    color: #1a81b4;
+    font-weight: bold;
+    z-index: 4;
+}
+#eMagizFlowDiff .legend {
+    max-width: 300px !important;
+    padding: 6px 6px 6px 3px;
+}
+#eMagizFlowDiff .legend .legend-title {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 90%;
+}
+#eMagizFlowDiff .legend .legend-scale ul {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    float: left;
+    list-style: none;
+}
+#eMagizFlowDiff .legend .legend-scale ul li {
+    font-size: 80%;
+    list-style: none;
+    margin-left: 0;
+    line-height: 18px;
+    margin-bottom: 2px;
+}
+#eMagizFlowDiff .legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 16px;
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 0;
+    border: 1px solid #999;
+}
+#eMagizFlowDiff .legend .legend-source {
+    font-size: 70%;
+    color: #999;
+    clear: both;
+}
+#eMagizFlowDiff .legend a {
+    color: #777;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "emagizflowdiff",
+  "version": "1.0.0",
+  "description": "eMagizFlowDiff",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "author": "Schhanoi <d.bui@schhanoi.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "enzyme": "^2.8.2",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "gulp": "^3.9.1",
+    "gulp-babili": "^0.1.4",
+    "gulp-clean": "^0.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-typescript": "^3.1.7",
+    "gulp-webpack": "^1.5.0",
+    "gulp-zip": "^4.0.0",
+    "jest": "^20.0.4",
+    "jest-cli": "^20.0.4",
+    "mendix-client": "https://github.com/FlockOfBirds/Mendix-client-typing/archive/7.1.0.tar.gz",
+    "react": "^15.6.1",
+    "react-addons-test-utils": "^15.6.0",
+    "react-dom": "^15.6.1",
+    "react-test-renderer": "^15.6.1",
+    "run-sequence": "^1.2.2",
+    "style-loader": "^0.18.2",
+    "typescript": "^2.3.4",
+    "webpack": "^2.6.1",
+    "when": "^3.7.8"
+  },
+  "dependencies": {
+    "json-bigint": "^0.2.3",
+    "react-rnd": "^7.4.0",
+    "react-split-pane": "^0.1.65"
+  }
+}

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`correct single item  1`] = `
+<basic_items.SingleItem
+  name="name"
+  value={20}
+/>
+`;
+
+exports[`test single item  1`] = `
+<basic_items.SingleItem
+  name="age"
+  value={21}
+/>
+`;
